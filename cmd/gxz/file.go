@@ -87,7 +87,7 @@ func xzReaderConfig(opts *options) xz.ReaderConfig {
 
 // formats contains the formats supported by gxz.
 var formats = map[string]*format{
-	"lzma": &format{
+	"lzma": {
 		newCompressor: func(w io.Writer, opts *options,
 		) (c io.WriteCloser, err error) {
 			return lzma.NewWriterCfg(w, lzmaWriterConfig(opts))
@@ -104,7 +104,7 @@ var formats = map[string]*format{
 			return lzma.ValidHeader(h)
 		},
 	},
-	"xz": &format{
+	"xz": {
 		newCompressor: func(w io.Writer, opts *options,
 		) (c io.WriteCloser, err error) {
 			return xz.NewWriterCfg(w, xzWriterConfig(opts))
