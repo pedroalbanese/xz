@@ -14,8 +14,8 @@ import (
 	"hash"
 	"io"
 
-	"github.com/ulikunitz/xz/internal/xlog"
-	"github.com/ulikunitz/xz/lzma"
+	"github.com/pedroalbanese/xz/internal/xlog"
+	"github.com/pedroalbanese/xz/lzma"
 )
 
 // ReaderConfig defines the parameters for the xz reader. The
