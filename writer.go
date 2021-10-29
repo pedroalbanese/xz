@@ -10,7 +10,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/ulikunitz/xz/lzma"
+	"github.com/pedroalbanese/xz/lzma"
 )
 
 // WriterConfig describe the parameters for an xz writer.
