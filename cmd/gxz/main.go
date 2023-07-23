@@ -7,7 +7,7 @@
 // Use gxz -h to get information about supported flags.
 package main
 
-//go:generate xb cat -o licenses.go xzLicense:github.com/ulikunitz/xz/LICENSE goLicense:~/go/LICENSE
+//go:generate xb cat -o licenses.go xzLicense:github.com/pedroalbanese/xz/LICENSE goLicense:~/go/LICENSE
 //go:generate xb version-file -o version.go
 
 import (
@@ -51,7 +51,7 @@ in place).
 
 With no file, or when FILE is -, read standard input.
 
-Report bugs using <https://github.com/ulikunitz/xz/issues>.
+Report bugs using <https://github.com/pedroalbanese/xz/issues>.
 `
 )
 
@@ -61,7 +61,7 @@ func usage(w io.Writer) {
 
 func licenses(w io.Writer) {
 	out := `
-github.com/ulikunitz/xz -- xz for Go
+github.com/pedroalbanese/xz -- xz for Go
 ====================================
 
 {{.xz}}
