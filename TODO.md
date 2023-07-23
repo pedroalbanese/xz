@@ -1,4 +1,4 @@
-# TODO list
+﻿# TODO list
 
 ## Release v0.5.x
 
@@ -77,7 +77,7 @@
 * Write release notes in doc/relnotes.
 * Update README.md
 * xb copyright . in xz directory to ensure all new files have Copyright header
-* `VERSION=<version> go generate github.com/ulikunitz/xz/...` to update version files
+* `VERSION=<version> go generate github.com/pedroalbanese/xz/...` to update version files
 * Execute test for Linux/amd64, Linux/x86 and Windows/amd64.
 * Update TODO.md - write short log entry
 * `git checkout master && git merge dev`
@@ -119,12 +119,12 @@ const (
 ### 2020-08-19
 
 Release v0.5.8 fixes issue
-[issue #35](https://github.com/ulikunitz/xz/issues/35).
+[issue #35](https://github.com/pedroalbanese/xz/issues/35).
 
 ### 2020-02-24
 
 Release v0.5.7 supports the check-ID None and fixes
-[issue #27](https://github.com/ulikunitz/xz/issues/27).
+[issue #27](https://github.com/pedroalbanese/xz/issues/27).
 
 ### 2019-02-20
 

@@ -25,7 +25,7 @@ import (
     "log"
     "os"
 
-    "github.com/ulikunitz/xz"
+    "github.com/pedroalbanese/xz"
 )
 
 func main() {
@@ -55,7 +55,7 @@ func main() {
 
 ## Documentation
 
-You can find the full documentation at [pkg.go.dev](https://pkg.go.dev/github.com/ulikunitz/xz).
+You can find the full documentation at [pkg.go.dev](https://pkg.go.dev/github.com/pedroalbanese/xz).
 
 ## Using the gxz compression tool
 
@@ -64,7 +64,7 @@ decompression.
 
 Use following command for installation:
 
-    $ go get github.com/ulikunitz/xz/cmd/gxz
+    $ go get github.com/pedroalbanese/xz/cmd/gxz
 
 To test it call the following command.
 
